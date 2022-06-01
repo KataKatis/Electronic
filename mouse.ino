@@ -3,7 +3,7 @@ int X = A1;
 int Y = A0;
 
 void setup() {
-  pinMode(SW, INPUT);
+  pinMode(SW, INPUT); // port 2 of arduino uno card is an input
   Serial.begin(9600);
 }
 
